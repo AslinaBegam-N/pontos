@@ -48,8 +48,10 @@ data/*.jpg
 
 # Model outputs
 runs/
-*.pt
-!models/yolo11s_tci.pt  # Keep trained model
+
+# Models
+models/*.pt
+!models/download_model.py
 
 # Detection outputs
 *.geojson

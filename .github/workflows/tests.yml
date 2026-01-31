@@ -37,11 +37,14 @@ jobs:
         pip install pytest pytest-cov pytest-mock
         pip install -e .
 
-    - name: Create dummy model for tests
+    - name: Download YOLO model
       run: |
-        mkdir -p models
-        touch models/yolo11s_tci.pt
+        python models/download_model.py
 
+    - name: Verify model exists
+      run: |
+        test -f models/yolo11s_tci.pt || exit 1
+        echo "Model verified"
     - name: Run tests with coverage
       env:
         SH_CLIENT_ID: test-ci-client-id

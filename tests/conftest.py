@@ -1,9 +1,33 @@
 """Pytest configuration and shared fixtures."""
 import os
+import sys
 import pytest
 from pathlib import Path
 import numpy as np
 from PIL import Image
+
+
+@pytest.fixture(scope="session", autouse=True)
+def ensure_model_downloaded():
+    """Ensure YOLO model is downloaded before running tests."""
+    model_path = Path("models/yolo11s_tci.pt")
+
+    if not model_path.exists():
+        print("\nYOLO model not found, downloading from HuggingFace...")
+
+        # Import and run download
+        sys.path.insert(0, str(Path(__file__).parent.parent))
+        from models.download_model import download_model
+
+        try:
+            download_model()
+            print("✅ Model download complete\n")
+        except Exception as e:
+            pytest.exit(f"Failed to download model: {e}", returncode=1)
+    else:
+        print(f"\n✅ Model found: {model_path}\n")
+
+    return model_path
 
 
 @pytest.fixture(autouse=True, scope="session")
@@ -12,6 +36,7 @@ def isolate_env():
     # Clear loaded env vars before tests
     # Don't load .env for tests
     os.environ.pop("DOTENV_LOADED", None)
+
 
 @pytest.fixture(autouse=True)
 def mock_env_vars(monkeypatch):
@@ -26,6 +51,7 @@ def mock_env_vars(monkeypatch):
     monkeypatch.setenv("SH_CLIENT_SECRET", "test-client-secret")
     monkeypatch.setenv("DEVICE", "cpu")
     monkeypatch.setenv("MODEL_PATH", "models/yolo11s_tci.pt")
+
 
 @pytest.fixture(scope="session")
 def test_data_dir():
