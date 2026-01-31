@@ -12,11 +12,9 @@
 
 </div>
 
-**Global Naval Surveillance System for Satellite Imagery**
-
 Pontos is a production-ready AI-powered ship detection system that combines Sentinel-2 satellite imagery with YOLO11s deep learning to automatically identify and geolocate naval vessels worldwide.
 
-Named after **Pontos** (Πόντος), the primordial Greek god of the sea. Just as Pontos embodied the vast ocean connecting all lands, this project monitors global maritime activity from space—watching the seas from the heavens.
+Named after **Pontos** (Πόντος), the primordial Greek god of the sea. Just as Pontos embodied the vast ocean connecting all lands, this project monitors global maritime activity from space, watching the seas from the heavens.
 
 ---
 
