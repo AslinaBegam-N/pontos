@@ -10,7 +10,11 @@
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Pytest](https://img.shields.io/badge/pytest-%23ffffff.svg?style=for-the-badge&logo=pytest&logoColor=2f9fe3)
 
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://teyk0o.github.io/pontos/)
+
 </div>
+
+> **Documentation**: [https://teyk0o.github.io/pontos/](https://teyk0o.github.io/pontos/)
 
 Pontos is a production-ready AI-powered ship detection system that combines Sentinel-2 satellite imagery with YOLO11s deep learning to automatically identify and geolocate naval vessels worldwide.
 
@@ -487,12 +491,22 @@ pontos/
 │
 ├── .github/
 │   └── workflows/
-│       └── tests.yml         # CI/CD pipeline
+│       ├── tests.yml         # CI/CD pipeline
+│       └── docs.yml          # Documentation deployment
+│
+├── docs/                      # MkDocs documentation
+│   ├── index.md
+│   ├── getting-started/
+│   ├── user-guide/
+│   ├── api/
+│   ├── development/
+│   └── deployment/
 │
 ├── setup.py                  # Package configuration
 ├── requirements.txt          # Dependencies
 ├── requirements.lock         # Locked versions
 ├── pytest.ini                # Pytest configuration
+├── mkdocs.yml                # Documentation configuration
 ├── .env.example              # Environment template
 └── README.md                 # This file
 ```
@@ -600,6 +614,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 **Maintained by**: Teyk0o
+
+**Documentation**: https://teyk0o.github.io/pontos/
 
 **Project Homepage**: https://github.com/teyk0o/pontos
 
